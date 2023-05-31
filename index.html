@@ -1,0 +1,261 @@
+<html>
+
+<head>
+    <title>Inteligencia Artificial</title>
+    <link rel="icon" type="image/png" href="imagenes/iconow.png">
+    <!-- AÑADIR UN SCRIPT -->
+ <script type="text/javascript">
+        function MM_swapImgRestore() {
+            var i, x, a = document.MM_sr;
+            for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++)
+                x.src = x.oSrc;
+        }
+        function MM_preloadImages() {
+            var d = document;
+            if (d.images) {
+                if (!d.MM_p)
+                    d.MM_p = new Array();
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments;
+                for (i = 0; i < a.length; i++)
+                    if (a[i].indexOf("#") != 0) {
+                        d.MM_p[j] = new Image;
+                        d.MM_p[j++].src = a[i];
+                    }
+            }
+        }
+
+        function MM_findObj(n, d) {
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+            if (!x && d.getElementById) x = d.getElementById(n); return x;
+        }
+
+        function MM_swapImage() {
+            var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+                if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+        }
+    </script>
+</head>
+
+<body
+onLoad="MM_preloadImages()"
+style="margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; color: white;">
+
+    <!-- CONTENEDOR -->
+    <table border="0" align="center" width="100%" style="margin: 0; padding: 0;">
+        <!-- ENCABEZADO (header) -->
+        <tr>
+            <td bgcolor="#aa1803">
+                <img src="imagenes/banner.png" alt="BANNER DEL SITIO" width="100%">
+            </td>
+        </tr>
+        <!-- CONTENIDO Y MENUS -->
+        <tr>
+            <td>
+                <table width="100%" height="400">
+                    <tr>
+                        <!-- MENU DE NAVEGACION -->
+                        <td width="200" bgcolor="#8892c6" valign="center">
+                            <table width="200" height="300" bgcolor="white">
+                                <tr>
+                                    <td align="center">
+                                        <a href="index.html" onMouseOut="MM_swapImgRestore()"
+                                            onMouseOver="MM_swapImage('boton1','','imagenes/botones/01b.png',1)">
+                                            <img src="imagenes/botones/01.png"
+                                            name="boton1" id="boton1" alt="Boton inicio">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="paginas/galeria.html" onMouseOut="MM_swapImgRestore()"
+                                            onMouseOver="MM_swapImage('boton2','','imagenes/botones/02b.png',1)">
+                                            <img src="imagenes/botones/02.png"
+                                            name="boton2" id="boton2" alt="Boton galeria">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="paginas/recursos.html" onMouseOut="MM_swapImgRestore()"
+                                            onMouseOver="MM_swapImage('boton3','','imagenes/botones/03b.png',1)">
+                                            <img src="imagenes/botones/03.png"
+                                            name="boton3" id="boton3" alt="Boton recursos">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="paginas/otros_sitios.html" onMouseOut="MM_swapImgRestore()"
+                                            onMouseOver="MM_swapImage('boton4','','imagenes/botones/04b.png',1)">
+                                            <img src="imagenes/botones/04.png"
+                                            name="boton4" id="boton4" alt="Boton otros_sitios">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="paginas/tutoriales.html" onMouseOut="MM_swapImgRestore()"
+                                            onMouseOver="MM_swapImage('boton5','','imagenes/botones/05b.png',1)">
+                                            <img src="imagenes/botones/05.png"
+                                            name="boton5" id="boton5" alt="Boton tutoriales">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="paginas/contacto.html" onMouseOut="MM_swapImgRestore()"
+                                            onMouseOver="MM_swapImage('boton6','','imagenes/botones/06b.png',1)">
+                                            <img src="imagenes/botones/06.png"
+                                            name="boton6" id="boton6" alt="Boton contacto">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <!-- CONTENIDO PRINCIPAL -->
+                        <td bgcolor="#60a0c6" style="color: black; padding: 20;">
+                            <h1 align="center">LA INTELIGENCIA ARTIFICIAL</h1>
+                            
+                            <h2>¿QUE ES LA INTELIGENCIA ARTIFICIAL?</h2>
+                            <font color="white" face="raro, courie" size="4">
+                            <p>La inteligencia artificial es, en las ciencias de la computación, la disciplina que intenta replicar y desarrollar la inteligencia y sus procesos implícitos a través de computadoras. No existe un acuerdo sobre la definición completa de inteligencia artificial, pero se han seguido cuatro enfoques: dos centrados en los humanos (sistemas que piensan como humanos, y sistemas que actúan como humanos) y dos centrados en torno a la racionalidad (sistemas que piensan racionalmente y sistemas que actúan racionalmente). Comenzó poco después de la Segunda Guerra Mundial, y el nombre lo acuñó en 1956 el informático John McCarthy, en la Conferencia de Dartmouth.
+                                
+                            La inteligencia artificial abarca en la actualidad una gran variedad de subcampos, que van desde áreas de propósito general, como el aprendizaje y la percepción, a otras más específicas como el juego de ajedrez, la demostración de teoremas matemáticos, la escritura de poesía y el diagnóstico de enfermedades. La Inteligencia Artificial sintetiza y automatiza tareas que en principio son intelectuales y es, por lo tanto, potencialmente relevante para cualquier ámbito de la actividad intelectual humana. En este sentido, es un campo genuinamente universal</font></p>
+                            <br>
+        
+                            <h2>¿Por qué es importante la IA?</h2>
+                            <font color="white" face="raro, courie" size="4">
+
+                                <p>Algunas tecnologías con inteligencia existen desde hace más de 50 años, pero los avances en la potencia informática, la disponibilidad de enormes cantidades de datos y nuevos algoritmo han permitido que se den grandes avances de IA en los últimos años.
+                                
+                                <br> 
+
+                            La inteligencia artificial tiene un papel central en la transformación difital de la sociedad y ha pasado a ser una prioridad de la UE.Se espera que sus aplicaciones futuras impliquen grandes cambios, pero la IA ya está presente en nuestras vidas. 
+
+                            Descubra más sobre las oportunidades y los desafíos de la inteligencia artificial y sobre cómo el Parlamento quiere regularla.
+                            </font>
+                            <br>
+                            <h2>Tipos de IA (según la definición de la Comisión Europea)</h2>
+                        <font color="white" face="raro, courie" size="4">
+                            Software: asistentes virtuales, software de análisis de imágenes, motores de búsqueda, sistemas de reconomiento de voz y rostro
+                            Inteligencia artificial integrada: robots, drones, vehículos autónomos, Internet de las Cosas
+                            La inteligencia artificial en el día a día A continuación se muestran algunas aplicaciones de inteligencia artificial que quizás desconocía que utilizaba esta habilidad.Compras por internet y publicidad 
+                            La inteligencia artificial se usa mucho para crear recomendaciones personalizadas para los consumidores, basadas, por ejemplo, en sus búsquedas y compras previas o en otros comportamientos en línea. La IA es muy importante en el comercio, para optimizar los producos, planear el inventario, procesos logísticos, etc. 
+                        </font>
+                            <h3>Búsquedas en la web</h3>
+                            <font color="white" face="raro, courie" size="4">
+                                Los motores de búsqueda aprenden de la gran cantidad de datos que proporcionan sus usuarios para ofrecer resultados de búsqueda relevantes.
+                            </font>
+
+<h3>Asistentes personales digitales</h3>
+<font color="white" face="raro, courie" size="4"> 
+Los teléfonos móviles smartphones usan la IA para un producto lo más relevante y personalizado posible. El uso de los asistentes virtuales que responden a preguntan, dan recomendaciones y ayudan a organizar las rutinas de sus propietarios se ha generalizado. 
+</font>
+<h3>Traducciones automáticas</h3>
+<font color="white" face="raro, courie" size="4">
+Language translation software, either based on written or spoken text, relies on artificial intelligence to provide and improve translations. This also applies to functions such as automated subtitling.
+</font>
+<h3>Casas, ciudades e infraestructuras inteligentes</h3>
+<font color="white" face="raro, courie" size="4"> 
+Los termostatos inteligentes aprenden de nuestro comportamiento para ahorrar energía, mientras que los desarrolladores de ciudades inteligentes esperan poder regular el tráfico para mejorar la conectividad y reducir los atascos.
+</font>
+<h3>Vehículos</h3>
+<font color="white" face="raro, courie" size="4">
+Aunque los vehículos de conducción autónoma no están generalizados todavía, los coches utilizan ya funciones de seguridad impulsadas por IA. Por ejemplo, la UE ayudó en la financiación del sistema de asistencia a la conducción basado en visión VI-DAS, que detecta posibles situaciones peligrosas y accidentes.
+
+La navegación se basa en gran medida en IA.
+</font>
+<h3>Ciberseguridad</h3>
+<font color="white" face="raro, courie" size="4">
+Los sistemas de inteligencia artificial pueden ayudar a reconocer y luchar contra los ciberataques y otras amenazas en línea basándose en los datos que reciben continuamente, reconociendo patrones e impidiendo los ataques. 
+</font>
+<h3>La inteligencia artficial para luchar contra la Covid-19</h3>
+<font color="white" face="raro, courie" size="4">
+La IA se ha utilizado en las cámaras termográficas instaladas en los aeropuertos y en otros lugares. En medicina, puede ayudar a reconocer una infección de los pulmones a partir de una prueba llamada tomografía computarizada. También se ha utilizado para proporcionar datos para rastrear la propagación de la enfermedad.
+</font>
+
+<h3>Lucha contra la desinformación</h3>
+<font color="white" face="raro, courie" size="4">
+Algunas aplicaciones de la inteligencia artificial pueden detectar noticias falsas y desinformación al extraer información de las redes sociales, buscar palabras sensacionales o alarmantes e idefintificar qué fuentes en línea se consideran autorizadas.
+
+Descubra más sobre cómo los eurodiputados quieren regular la legislación sobre datos para promover la innovación y garantizar la seguridad.
+
+Otros ejemplos de aplicaciones de IA
+Con la IA se pretende transformar casi todos los aspectos de la vida y la economía. Estos son otros ejemplos: 
+</font>
+<h3>Salud</h3>
+<font color="white" face="raro, courie" size="4">
+Los investigadores estudian cómo usar la IA para analizar grandes cantidades de datos sobre la salud para encontrar patrones que podrían llevar a nuevos descubrimientos en la medicina y a otras formas de mejorar los diagnósticos individuales. 
+
+Por ejemplo, los investigadores desarrollaron un programa de IA que respondía a llamadas de emergencia y decían que detectaba paros cardiacos más rápidos de lo que lo podría hacer un médico.
+
+Por otra parte, KConnect, cofinanciado por la UE, está desarrollando servicios de búsqueda y texto en varios idiomas que ayudan a las personas a encontrar la información médica más relevante disponible
+</font>
+
+<h3>Transporte</h3>
+<font color="white" face="raro, courie" size="4">
+La inteligencia artificial podría mejorar la seguridad, velocidad y eficiencia del tráfico ferroviario al minimizar la fricción de las ruedas, maximizar la velocidad y permitir la conducción autónoma.
+</font>
+<h3>Manufacturas</h3>
+<font color="white" face="raro, courie" size="4">
+La inteligencia artificial puede ayudar a que los productores europeas sean más eficientes y potenecie de nuevo las fábricas en Europa al usar robots, optimizar los recorridos de ventas o con predicciones puntuales del mantenimiento necesario o de averías en "fábricas inteligentes".
+El proyecto de investigación cofinanciaco por la UE SatisFactory usa sistemas colaborativos de realidad aumentada para incrementar la satisfacción en el trabajo en "fábricas inteligentes".
+</font>
+<h3>Comida y agricultura</h3>
+<font color="white" face="raro, courie" size="4">
+La IA puede usarse para construir un sistema alimentario sostenible: podría garantizar comida más sana al minimizar el uso de fertilizantes, pesticidas y el riego; mejorar la productividad y reducir el impacto medioambiental. Además, los robots podrían quitar las malas hierbas y reducir el uso de herbicidas.
+
+En la UE, ya hay muchos granjeros que usan la IA para controlar el movimiento, la temperatura y el consumo de alimentos de sus ganados.
+
+Administración pública y servicios
+Al usar enormes cantidades de datos y reconocer patrones, la IA podría prever desastres naturales, permitir una preparación adecuada y reducir sus consecuencias.
+</font>
+</p>
+                        </td>
+                        <!-- ENLACES EXTERNOS -->
+                        <td width="115" bgcolor="#727272" align="center" valign="center">
+                            <br>
+                            <br>
+                            <a href="https://www.tiktok.com/" target="_blank">
+                                <img src="imagenes/iconos/tiktok.png" width="40" alt="Logo tiktok">
+                            </a>
+                            <br>
+                            <br>
+                            <a href="https://www.google.com/" target="_blank">
+                                <img src="imagenes/iconos/google.png" width="40" alt="Logo google">
+                            </a>
+                            <br>
+                            <br>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="imagenes/iconos/facebook.png" width="40" alt="Logo facebook">
+                            </a>
+                            <br>
+                            <br>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="imagenes/iconos/instagram.png" width="40" alt="Logo instagram">
+                            </a>
+                            <br>
+                            <br>
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <img src="imagenes/iconos/twitter.png" width="40" alt="Logo twitter">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- PIE DE PAGINA (footer) -->
+        <tr>
+            <td width="1200" height="100" bgcolor="#0088b6" align="center">
+                Webmaster: Zamorano Vera Sebastián<br>
+                Derechos reservados &copy; 2023
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
